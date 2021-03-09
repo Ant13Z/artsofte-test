@@ -1,0 +1,14 @@
+<div class="car-list">
+  <div class="car-list__head-wrapper">
+    <div class="car-list__head">
+      <h3 class="car-list__head__title">BMW</h3>
+      <small class="car-list__head__count">732</small>
+    </div>
+    <a class="car-list__link">Все модели BMW</a>
+  </div>
+  <div class="car-list__body">
+    <div class="car-list__item" *ngFor="let car of this.carList">
+      <car-item [car]="car"></car-item>
+    </div>
+  </div>
+</div>
