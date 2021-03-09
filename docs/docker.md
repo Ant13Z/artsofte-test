@@ -1,7 +1,8 @@
+How run the dev environment:
 1. docker-compose up
-2. go to localhost:8080
-3. 
+2. frontend listens localhost:8080
+3. backend listens localhost:80
 
-
-docker-compose exec -u root frontend sh
-docker-compose exec -u root backend sh
+How connect to the containers: 
+1. docker-compose exec -u root frontend sh
+2. docker-compose exec -u root backend sh
